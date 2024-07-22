@@ -15,7 +15,7 @@ import com.example.myapplication.ui.theme.MyApplicationTheme
 class SecondActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val message = intent.getStringExtra("MESSAGE") ?: "No message"
+        val message = intent.getStringExtra("MESSAGE") ?: "No Message"
         setContent {
             MyApplicationTheme {
                 // A surface container using the 'background' color from the theme
